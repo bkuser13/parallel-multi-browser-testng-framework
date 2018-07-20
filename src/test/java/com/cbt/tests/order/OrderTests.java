@@ -15,6 +15,7 @@ import com.cbt.pages.AllOrdersPage;
 import com.cbt.pages.LoginPage;
 import com.cbt.pages.ProductsPage;
 import com.cbt.tests.TestBase;
+import com.cbt.utilities.BrowserUtils;
 import com.cbt.utilities.ConfigurationReader;
 
 public class OrderTests extends TestBase {
