@@ -18,7 +18,9 @@ public class Driver {
 
 		if (driver == null) {
 			if (browser == null) {
-				browser = ConfigurationReader.getProperty("browser");
+//				browser = ConfigurationReader.getProperty("browser");
+				browser = browser==null ? ConfigurationReader.getProperty("browser"):browser;
+				
 			}
 
 			switch (browser) {
